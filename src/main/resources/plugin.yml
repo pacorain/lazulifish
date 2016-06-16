@@ -1,4 +1,11 @@
-name: Lazulifish
-version: 0.0.1
-author: Austin "Paco" DeArmond
-main: audio.paco.mc.lazulifish
+name: ${name}
+version: ${version}
+author: ${author}
+main: ${mainClass}
+commands:
+  scare:
+    description: Scare another player with a hissing sound (takes an emrald)
+    usage: /scare [player]
+  chat:
+    description: Get information about the server chat
+    usage: /chat

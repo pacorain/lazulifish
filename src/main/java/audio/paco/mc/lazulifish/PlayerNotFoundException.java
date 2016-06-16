@@ -1,7 +1,4 @@
 package audio.paco.mc.lazulifish;
 
-/**
- * Created by ajdearmond on 6/15/2016.
- */
-public class PlayerNotFoundException {
+public class PlayerNotFoundException extends Exception {
 }
